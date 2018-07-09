@@ -1,0 +1,74 @@
+{
+	"title":		"test",
+	"author":		"Cbuntu",
+	"description":	"test code",
+	"language":		"zh-hans",
+
+	"links": {
+		"sidebar": {
+			"Home": "https://cbuntu.github.io",
+			"LinuxTutorial": "https://cbuntu.gitbooks.io/linuxtutorial"
+		}
+	},
+
+	"styles": {
+		"website": "styles/website.css"
+	},
+
+	"plugins": [
+
+		"tbfed-pagefooter",
+		"splitter",
+		"anchors",
+		"anchor-navigation-ex-toc",
+		"image-captions",
+		"toggle-chapters",
+		"pretty-term",
+		"terminal"
+
+	],
+
+	"pluginsConfig": {
+
+		"theme-default": {
+			"showLevel": true
+		},
+
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy cbuntu.github.io 2018",
+			"modify_label": "该文件修改时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+
+		"image-captions": {
+			"caption": "_CAPTION_"
+		},
+
+		"fontsettings": {
+			"theme": "white",
+			"size": 1
+		},
+
+		"anchor-navigation-ex-toc": {
+			"showLevel": true,
+			"associatedWithSummary": false
+		},
+
+		"terminal": {
+			"copyButtons": false,
+			"fade": false,
+			"style": "ubuntu"
+		},
+
+		"code": {
+			"copyButtons": false
+		},
+
+		"codegroup": {
+			"defaultTabName": "Code",
+			"tabNameSeperator": "::",
+			"rememberTabs": true
+		}
+
+	}
+}
