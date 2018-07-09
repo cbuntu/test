@@ -3,6 +3,7 @@
 	"author":		"Cbuntu",
 	"description":	"test code",
 	"language":		"zh-hans",
+	"gitbook":		"3.2.3",
 
 	"links": {
 		"sidebar": {
